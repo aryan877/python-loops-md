@@ -79,6 +79,14 @@ else:
     # code to be executed when loop condition is false
 ```
 
+## The `range` Function
+
+The `range` function is commonly used with `for` loops to generate a sequence of numbers. It can take one, two, or three arguments:
+
+-   `range(stop)`: Generates numbers from 0 to (stop - 1).
+-   `range(start, stop)`: Generates numbers from start to (stop - 1).
+-   `range(start, stop, step)`: Generates numbers from start to (stop - 1) with a specified step.
+
 ## Challenges
 
 ### Challenge 1:
@@ -119,3 +127,4 @@ words = ["apple", "banana", "cherry"]
 for word in words:
     print(f"The length of {word} is {len(word)}") 
   ```
+ 
